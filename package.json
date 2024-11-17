@@ -1,10 +1,11 @@
 {
-  "name": "vite-boilerplate",
-  "private": true,
+  "name": "tma-flows",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
+    "dev:ngrok": "ngrok start tma-flows",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
